@@ -1,0 +1,40 @@
+* source PROIECT CAD
+V_V2         0 -VPS 15V
+V_V3         +VPS 0 15V
+R_R4         N27593 N15178 R_R4 1.5K TC=0,0 
+.model        R_R4 RES R=1 DEV=5% TC1=0 TC2=0
+R_R6         N15025 MID R_R6 10K TC=0,0 
+.model        R_R6 RES R=1 DEV=2% TC1=0 TC2=0
+C_C2         0 N15178 C_C2 4.7nF  TC=0,0 
+.model        C_C2 CAP C=1 DEV=2% TC1=0 TC2=0 VC1=0 VC2=0
+D_D1         N16407 N16306 D1N4148 
+D_D2         N16306 N16344 D1N4148 
+R_R9         N16407 +VPS R_R9 1k TC=0,0 
+.model        R_R9 RES R=1 DEV=2% TC1=0 TC2=0
+R_R10         -VPS N16344 R_R10 1k TC=0,0 
+.model        R_R10 RES R=1 DEV=2% TC1=0 TC2=0
+Q_Q1         +VPS N16407 OUT Q2N3055
+Q_Q2         -VPS N16344 OUT TIP30C
+R_Rout         OUT 0 R_Rout 30 TC=0,0 
+.model        R_Rout RES R=1 DEV=1% TC1=0 TC2=0
+R_R5         0 N15025 R_R5 1k TC=0,0 
+.model        R_R5 RES R=1 DEV=2% TC1=0 TC2=0
+R_R2         0 N27455 R_R2 5K TC=0,0 
+.model        R_R2 RES R=1 DEV=2% TC1=0 TC2=0
+R_R3         N27455 N27593 R_R3 50K TC=0,0 
+.model        R_R3 RES R=1 DEV=2% TC1=0 TC2=0
+C_C1         IN N28627 C_C1 2nF  TC=0,0 
+.model        C_C1 CAP C=1 DEV=2% TC1=0 TC2=0 VC1=0 VC2=0
+R_R1         0 N28627 R_R1 10K TC=0,0 
+.model        R_R1 RES R=1 DEV=2% TC1=0 TC2=0
+R_R7         0 N30286 R_R7 1K  
+.model        r_R7 RES R=1 DEV=1%
+V_V1         IN 0  AC 300u
++SIN 0 300u 16000 0 0 0
+X_U4         N16109 N16306 +VPS -VPS N16306 TL071/301/TI
+X_U1         N28627 N27455 +VPS -VPS N27593 LT1028/LT
+X_U2         N15178 N15025 +VPS -VPS MID LT1028/LT
+X_U3         MID N30286 +VPS -VPS N16109 LT1028/LT
+X_POT1         N45122 N45122 N16109 POT PARAMS: SET={set} VALUE=227K
+R_R8         N30286 N45122  110K TC=0,0 
+.PARAM  set=1

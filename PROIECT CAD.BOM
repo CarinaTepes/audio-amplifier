@@ -1,0 +1,29 @@
+  Revised: Wednesday, May 17, 2023
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials            May 19,2023      11:23:39	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	C1	2nF
+2	1	C2	4.7nF
+3	2	D1,D2	D1N4148
+4	1	POT1	227K
+5	1	Q1	Q2N3055
+6	1	Q2	TIP30C
+7	1	Rout	30
+8	2	R1,R6	10K
+9	1	R2	5K
+10	1	R3	50K
+11	1	R4	1.5K
+12	4	R5,R7,R9,R10	1k
+13	1	R8	110K
+14	3	U1,U2,U3	LT1028/LT
+15	1	U4	TL071/301/TI

@@ -1,0 +1,29 @@
+"  Revised: Wednesday, May 17, 2023"				
+          Revision: 				
+				
+				
+				
+				
+				
+				
+				
+"Bill Of Materials            May 19,2023      11:23:39"	Page1			
+				
+Item	Quantity	Reference	Part	Manufacturer
+______________________________________________				
+				
+1	1	C1	2nF	Vishay
+2	1	C2	4.7nF	Taiyo/Yuden
+3	2	"D1,D2"	D1N4148	Continental Device India
+4	1	POT1	227K	Shenzhen Hejing Technology 
+5	1	Q1	Q2N3055	STMicroelectronics.
+6	1	Q2	TIP30C	Fairchild Semiconductor
+7	1	Rout	30	Vishay
+8	2	"R1,R6"	10K	Panasonic
+9	1	R2	5K	TE Connectivity
+10	1	R3	50K	KOA Speer Electronics
+11	1	R4	1.5K	Yageo Corporation
+12	4	"R5,R7,R9,R10"	1k	Bourns
+13	1	R8	110K	Stackpole Electronics
+14	3	"U1,U2,U3"	LT1028/LT	Linear Technology
+15	1	U4	TL071/301/TI	Texas Instruments

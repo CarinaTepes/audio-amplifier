@@ -1,0 +1,6 @@
+ lib=D:\Cadence\SPB_22.1\tools\PSpice\Library\diode.lib, offset=19529, size=328
+ lib=D:\Cadence\SPB_22.1\tools\PSpice\Library\pwrbjt.lib, offset=5229, size=806
+ lib=D:\Cadence\SPB_22.1\tools\PSpice\Library\pwrbjt.lib, offset=218095, size=344
+ lib=D:\Cadence\SPB_22.1\tools\PSpice\Library\tex_inst.lib, offset=83782, size=1158
+ lib=D:\Cadence\SPB_22.1\tools\PSpice\Library\lin_tech.lib, offset=74663, size=1100
+ lib=D:\Cadence\SPB_22.1\tools\PSpice\Library\breakout.lib, offset=7617, size=133
